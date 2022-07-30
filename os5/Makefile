@@ -5,6 +5,7 @@ KERNEL_ELF := target/$(TARGET)/$(MODE)/os
 KERNEL_BIN := $(KERNEL_ELF).bin
 KERNEL_ASM := $(KERNEL_ELF).asm
 
+
 # BOARD
 BOARD ?= qemu
 SBI ?= rustsbi
